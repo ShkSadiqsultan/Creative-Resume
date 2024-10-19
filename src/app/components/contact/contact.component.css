@@ -1,0 +1,65 @@
+.contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:white;
+   
+  }
+  .contact-background{
+    background-image: url('/assets/humber.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-left: 20px;
+  }
+
+  .background-contact{
+    display: flex;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  
+  }
+
+  form{
+    width: 600px;
+  }
+
+  .contact-btn {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+    
+    .contact-btn:hover {
+      background-color: rgb(34, 29, 29); 
+      color: yellow;
+    }
+  

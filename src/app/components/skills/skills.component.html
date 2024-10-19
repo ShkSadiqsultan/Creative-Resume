@@ -1,0 +1,10 @@
+<h2 class="professional">Professional Skills</h2>
+<div class="skills-container">
+  <div class="skill-bar" *ngFor="let skill of skillsData">
+    <span class="skill-name">{{ skill.skill }}</span>
+    <div class="skill-progress">
+      <div class="skill-progress-bar" [style.width]="skill.proficiency + '%'"></div>
+    </div>
+    <span class="skill-percentage">{{ skill.proficiency }}%</span>
+  </div>
+</div>

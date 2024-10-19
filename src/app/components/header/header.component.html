@@ -1,0 +1,38 @@
+
+<header class="main-header">
+  <nav class="navbar">
+  <div class="navbar-logo">
+    SADIQ PORTFOLIO
+  </div>
+    <ul class="nav-list">
+      <li class="nav-item"><a href="#about">ABOUT</a></li>
+      <li class="nav-item"><a href="#skills">SKILLS</a></li>
+      <li class="nav-item"><a href="#portfolio">PORTFOLIO</a></li>
+      <li class="nav-item"><a href="#experiance">EXPERIENCE</a></li>
+      <li class="nav-item"><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<div class="profile-background">
+  <div class="profile-section">
+    <div class="profile-image">
+      <img src="assets/profile.png" alt="Sadiq Sultan">
+    </div>
+    <h1 class="profile-name">Sadiq Sultan</h1>
+    <p class="profile-role">FULL STACK WEB DEVELOPER</p>
+  <div class="navbar-buttons">
+    <a href="mailto:shksadiqsultan@gmail.com" class="btn-cv">Hire Me</a>
+    <a  (click)="downloadCV()" class="btn-cv">Download CV</a>
+
+  </div>
+  <div class="container text-center">
+    <div class="social-icons">
+      <a *ngFor="let link of socialLinks" [href]="link.url" target="_blank" [attr.aria-label]="link.name">
+        <i [class]="link.icon"></i>
+      </a>
+    </div>
+  </div>
+</div>
+

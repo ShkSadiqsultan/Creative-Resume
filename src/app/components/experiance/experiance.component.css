@@ -1,0 +1,25 @@
+.work-experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .work-experience-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .work-experience-title {
+    font-weight: bold;
+  }
+  
+  .work-experience-details {
+    margin-bottom: 10px;
+  }
+
+  .work-experiance{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }

@@ -1,0 +1,28 @@
+CSS
+.portfolio-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio-item {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.portfolio{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }

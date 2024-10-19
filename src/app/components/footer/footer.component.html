@@ -1,0 +1,29 @@
+<footer class="footer">
+  <div class="footer-content">
+    <nav>
+      <div class="navbar">
+
+        <span class="navbar-toggle" id="js-navbar-toggle">
+          <i class="fas fa-bars"></i>
+        </span>
+        <ul class="main-nav" id="js-menu">
+          <li class="nav-links"><a href="#about">ABOUT</a></li>
+          <li class="nav-links"><a href="#skills">SKILLS</a></li>
+          <li class="nav-links"><a href="#portfolio">PORTFOLIO</a></li>
+          <li class="nav-links"><a href="#experiance">EXPERIENCE</a></li>
+          <li class="nav-links"><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container text-center">
+      <div class="social-icons">
+        <a *ngFor="let link of socialLinks" [href]="link.url" target="_blank" [attr.aria-label]="link.name">
+          <i [class]="link.icon"></i>
+        </a>
+      </div>
+  </div>
+    
+    <p class="footer-name"><a href="#">Sadiq Sultan</a> © 2024.</p>
+   
+  </div>
+</footer>

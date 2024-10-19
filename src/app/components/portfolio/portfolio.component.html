@@ -1,0 +1,11 @@
+<h2 class="portfolio">Portfolio</h2>
+<div class="portfolio-container">
+  <div class="portfolio-items">
+    <div class="portfolio-item" *ngFor="let item of portfolioItems">
+      <img src="{{ item.image }}" alt="{{ item.title }}">
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
+      <div></div>
+    </div>
+  </div>
+</div>
